@@ -1,0 +1,78 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="422aa9af-bb49-4e98-9426-4bfeab617bb4" name="svp-itop-01.svp.test" url="http://svp-itop-01.svp.test">
+        <fileTransfer host="svp-itop-01.svp.test" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="f174835c-259a-403b-9229-a7789edfcab9" name="svp-itop-01.svp.prod" url="http://svp-itop-01.svp.prod">
+        <fileTransfer host="svp-itop-01.svp.prod" port="22" rootFolder="/home/vkunin" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="7961ac23-476d-4205-a10c-3379d480abaa" name="svp-itopcron-01.svp.prod" url="http://svp-itopcron-01.svp.prod">
+        <fileTransfer host="svp-itopcron-01.svp.prod" port="22" rootFolder="/home/vkunin" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="63f6d2bc-e9fa-452c-a07b-06609915c397" name="svp-itop-st-01.svp.test" url="http://svp-itop-st-01.svp.test">
+        <fileTransfer host="svp-itop-st-01.svp.test" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="c48a0e42-851e-4d4e-b507-aae01b7f0dd4" name="svp-itop-itsm-01.svp.preprod" url="http://svp-itop-itsm-01.svp.preprod">
+        <fileTransfer host="svp-itop-itsm-01.svp.preprod" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="e1535bdc-c71c-4890-bf92-8cd42ec98ca1" name="svp-itop-itsm-01.svp.prod" url="http://svp-itop-itsm-01.svp.prod">
+        <fileTransfer host="svp-itop-itsm-01.svp.prod" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="be1d9d16-5267-4f69-90cb-35633bf9e97e" name="svp-itop-itsm-02.svp.prod" url="http://svp-itop-itsm-02.svp.prod">
+        <fileTransfer host="svp-itop-itsm-02.svp.prod" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="a3f5345c-c955-46f6-b9b1-d55b8ad070af" name="svp-itop-itsm-cron-01.svp.prod" url="http://svp-itop-itsm-cron-01.svp.prod">
+        <fileTransfer host="svp-itop-itsm-cron-01.svp.prod" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="d410045f-caf6-46b6-8a9d-40bf655f6017" name="svp-itop-itsm-api-01.svp.prod" url="http://svp-itop-itsm-api-01.svp.prod">
+        <fileTransfer host="svp-itop-itsm-api-01.svp.prod" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>
