@@ -5,7 +5,7 @@
     <option name="defaultScopeName" value="All Places" />
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.php" />
+    <option name="FILE_MASK" value="ru*.php" />
     <mask>*.properties</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
@@ -13,10 +13,10 @@
     <mask>*.as</mask>
     <mask>*.mxml</mask>
     <mask>en.*.php</mask>
-    <mask>ru*.php</mask>
     <mask>*.js</mask>
     <mask>*.xml</mask>
     <mask>*.css</mask>
     <mask>*.php</mask>
+    <mask>ru*.php</mask>
   </component>
 </application>
