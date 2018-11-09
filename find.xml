@@ -20,5 +20,6 @@
     <mask>*.php</mask>
     <mask>ru*.php</mask>
     <mask>ru.dicti*.php</mask>
+    <mask>en.dicti*.php</mask>
   </component>
 </application>
