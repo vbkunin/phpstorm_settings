@@ -1,10 +1,8 @@
 <application>
   <component name="FindSettings">
-    <option name="caseSensitive" value="true" />
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="localWholeWordsOnly" value="true" />
-    <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="LOCAL_WHOLE_WORDS_ONLY" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
     <mask>*.properties</mask>
@@ -13,7 +11,6 @@
     <mask>*.java</mask>
     <mask>*.as</mask>
     <mask>*.mxml</mask>
-    <mask>en.*.php</mask>
     <mask>*.js</mask>
     <mask>*.xml</mask>
     <mask>*.css</mask>
@@ -21,5 +18,7 @@
     <mask>ru*.php</mask>
     <mask>ru.dicti*.php</mask>
     <mask>en.dicti*.php</mask>
+    <mask>en.*.php</mask>
+    <mask>ru.*.php</mask>
   </component>
 </application>
