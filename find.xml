@@ -11,12 +11,12 @@
     <mask>*.mxml</mask>
     <mask>*.xml</mask>
     <mask>*.css</mask>
-    <mask>ru*.php</mask>
     <mask>ru.dicti*.php</mask>
     <mask>en.dicti*.php</mask>
     <mask>en.*.php</mask>
     <mask>ru.*.php</mask>
     <mask>*.js</mask>
     <mask>*.php</mask>
+    <mask>ru*.php</mask>
   </component>
 </application>
